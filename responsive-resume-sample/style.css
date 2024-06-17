@@ -1,0 +1,188 @@
+.wrapper{
+    width: 100%;
+    margin: 0px auto;
+    outline: 2px solid black;
+    padding: 30px;
+    background: linear-gradient(rgba(59, 86, 128, 0.205),white,rgba(59, 86, 128, 0.205));
+}
+
+.name-contact-container{
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 30px;
+    vertical-align: top;
+}
+    .name-contact-container .name-container{
+        padding-bottom: 30px;
+    }
+        .name-contact-container .name-container h1{
+            color: rgb(55, 55, 111);
+            font-size: 40px;
+            margin: 10px 0;
+        }
+        .name-contact-container .name-container h2{
+            font-size: 15px;
+            margin: 0;
+        }
+    .name-contact-container .contact-number{
+    border-top: 3px solid rgb(55, 55, 111);
+    padding-top: 30px;
+    width: 430px;
+    }
+        .name-contact-container .contact-number h2{
+            font-size: 14px;
+            font-weight: lighter;
+            margin: 0;
+        }
+header img{
+    width: 250px;
+}
+
+main{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.self-description{
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(76, 76, 94, 0.082);
+}
+    .self-description h2{
+        color: rgb(46, 46, 46);
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+.projects-techonlogies-container{
+    text-align: center;
+}
+
+.list-technologies-container{
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+    .list-technologies-container h2{
+        text-align: center;
+        color: rgb(75, 75, 75);
+        font-size: 20px;
+    }
+
+    .list-technologies-container img {
+        width: 50px;
+        margin: 3px;
+    }
+
+.projects-container{
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    width: 337px;
+    text-align: left;
+    font-size: 15px;
+    background: linear-gradient(rgba(128, 128, 128, 0.205),white,rgba(128, 128, 128, 0.205));
+}
+    .projects-container h2{
+        text-align: center;
+        color: rgb(75, 75, 75);
+        font-size: 20px;
+    }
+
+    .projects-container h3{
+        margin: 0;
+        color: rgb(42, 42, 42);
+        font-size: 15px;
+    }
+
+    .projects-container p{
+        margin: 5px 0 0 0;
+    }
+
+    .projects-container ul{
+        padding-left: 20px;
+        margin: 0;
+        font-size: 15px;
+    }
+
+.project-description{
+    margin-bottom: 25px;
+}
+
+.relevant-links-container{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+    .relevant-links-container img{
+        width: 30px;
+        vertical-align: bottom;
+        margin-left: 10px;
+    }
+
+    .relevant-links-container a{
+        color: black;
+    }
+
+@media only screen and (max-width: 480px){
+    .sm-7{
+        width: 58%;
+    }
+    .sm-8{
+        width: 66%;
+    }
+    header{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .name-contact-container {
+        margin: 0;
+        display: block;
+    }
+        .name-contact-container .contact-number{
+            width: auto;
+        }
+            .name-contact-container .name-container h1 {
+                font-size: 30px;
+            }
+    .self-description{
+        margin: 20px auto;
+    }
+    .list-technologies-container{
+        display: block;
+    }
+    .relevant-links-container img{
+        width: 20px;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .md-12{
+        width: 100%;
+    }
+    .md-8 {
+        width: 66%;
+    }
+    .name-contact-container{
+        margin: 0;
+    }
+    .self-description{
+        margin: 20px auto;
+    }
+    header{
+        text-align: center;
+    }
+        header img{
+            margin-right: 25px;
+        }
+    .relevant-links-container img{
+        width: 30px;
+    }
+    .relevant-links-container a{
+        font-size: 14px;
+    }
+}

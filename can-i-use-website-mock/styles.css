@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/caniuse-bg.png);
+}
+.wrapper {
+    padding: 0 70px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    .not-supported{
+        background-color: #810000;
+    }
+    .partial-support{
+        background-color: #94700c;
+    }
+    .supported {
+        background-color: #258533;
+    }
+
+    .dangling-hash{
+        display: inline-block;
+        color:white;
+        font-size: 30px;
+        padding: 0px 10px;
+        background-color: #c75000;
+        position: absolute;
+        top: 35%;
+        left: 2.05%;
+    }
+    nav div{
+        background-color: #534c3e;
+        font-size: 20px;
+        color: white;
+        padding: 14px 14px;
+        display: inline-block;
+    }
+    nav div a{
+        text-decoration: none;
+        color: white;
+    }
+    nav div.offset-left{
+        margin-left: 67%;
+    }
+
+    header{
+        padding: 24px 0;
+        margin: 20px 0;
+        background-color: #c75000;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        line-height: 60px;
+        div{
+            display: inline-block;
+        }
+        form{
+            display: inline-block;
+        }
+        form input{
+            border:none;
+            text-align: center;
+            color:white;
+            background-color: transparent;
+            border-bottom: 1px solid white;
+        }
+    }
+    main {
+        background-color: #f2e8d5;
+        margin: 50px 0;
+        padding: 20px 30px;
+        font-weight: bold;
+        h1{
+            font-weight: 300;
+            font-size: 28px;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 16px;
+            width: 50%;
+            margin: 10px 0 60px 0;
+        }
+        
+        .grid-layout {
+            padding:0 30px;
+        }
+
+        .col {
+            margin: 3px;
+            text-align: center;
+            padding: 0;
+            color: white;
+            font-size: 20px;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .row .col .notes-tip{
+            background-color: white;
+            color: black;
+            font-size: 10px;
+            padding: 0 5px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+        }
+
+        .row .col .notes-container{
+            position: absolute;
+            top: 0;
+            .notes-tip{
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                margin: 0;
+            }
+            .notes-tip.sibling-note{
+                position: absolute;
+                left: 19px;
+            }
+        }
+
+        .row .col.col-header{
+            color: black;
+            border-bottom: 5px solid black;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .row .col.upper-empty-boxes{
+            background-color: #ebe2cf;
+            padding: 0;
+            margin: 0 3px;
+        }
+    }
+}
